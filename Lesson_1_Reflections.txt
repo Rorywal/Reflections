@@ -1,0 +1,82 @@
+How did viewing a diff between two versions of a file 
+help you to see the bug that was introduced?
+
+The Terminal was able to take me to the
+specific lines that had the issue. This made
+it easier to identify where the error was. 
+This would have been more difficult if it was done
+manually, especially if there was a lot of code.
+
+
+
+How could having easy access to the entire history of a
+file make you a more efficient programmer in the long term?
+
+It reduces the change of completely "breaking" the code. If
+I am going down a certain path that isn't quite working then
+I can quickly go back to an older version and start a new path,
+rather than having to undo everything I have done to get to
+where I am. This means that I can play around with large code
+restructuring without worrying that its boom or bust and should 
+make development as a whole faster.
+
+
+
+What do you think are the pros and cons of manually
+choosing when to create a commit, like you do in GIT, vs 
+having versions automatically saved, like Google Docs does?
+
+Manual commits are good because you can make sure each one
+is created at a logical point. There won't be a situation
+whereby the commit won't run/build because they were only 
+ever created when the code is OK. It's not much used reverting
+to an older version if that version doesn't work! On the other 
+hand, if, like me, you constantly forget to save at regular intervals
+then it can be useful to have periodically saved commits to ensure
+that work is not lost if, for example, your compiler crashes (like
+if you have an infinite loop!). Ultimately there are merits to both
+but I guess the former option is generally more useful.
+
+
+
+Why do you think that some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+
+I would imagine that a lot of this depends on what it is you're actually 
+doing. For example, in Google Docs you are less likely to be dealing with
+multiple files that are interacting with each other. Because of this, the
+need for multiple files in a single commit is diminished compared to, for
+example, a VST project, which has multiple files (such as headers & CPPs)
+that speak to each other.
+
+
+
+How can you use the commands git log and git diff to view the history 
+of files?
+
+Git log allows you to view all of the commits for a given file. Each of 
+these has a unique description that makes it easy to see what the changes
+were for that commit. You can also use Git diff to compare the differences
+between two commits and this is useful for seeing how different two commits
+are and what the differences are between them.
+
+
+
+How might using version control make you more confident to make changes that
+could break something.
+
+The benefit of version control is that it allows me to easily revert back to
+versions of code that I know worked. Further, it also allows me to identify the
+specific bits of code that might be causing any problems I'm having. Knowing 
+that I can play around with the code witout having to worry about affecting 
+its operation in the short term is very useful. With respect to my own work, I know,
+for example, that I can look at ways to increase code efficiency without worring
+that what I have already built will not work.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Anytime I'm building any macros!
+

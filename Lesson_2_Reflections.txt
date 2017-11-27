@@ -1,0 +1,18 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+By default, a given folder is not configured as repository and this means
+that you can't store commits etc. in the metadata. Using "Git Init" will
+create the repository.
+
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area can be thought of as being a "half-way-house" between the
+working directory and the repository. You may, for example, have been working
+on a file but are not ready to commit yet. The staging area allows you to 
+store a file ready to be committed without actually committing it. This is
+useful because you might want to group a commit with changes for another file.
+You might also be unsure about the changes you've made and want to double check
+before committing.
